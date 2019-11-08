@@ -1,0 +1,8 @@
+git init
+git remote add orgin <lien git>
+# -- S'il y a un fichier dans le repo distant - #
+git pull origin master --allow-unrelated-histories
+# --------------------------------------------- #
+git add .
+git commit -m "<desc du fichier>"
+git push orgin master
